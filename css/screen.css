@@ -142,3 +142,9 @@ figcaption {
   }
 
 }
+@media screen and (min-width: 25.625em) {
+  #header {
+    display: flex;
+    gap: 0.6em;
+  }
+}
