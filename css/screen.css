@@ -52,7 +52,7 @@ p {
   margin: 1.5em;
 }
 img {
-  width: 100%;
+  width: 50%;
 }
 
 .nav-bar {
@@ -122,4 +122,23 @@ h4 {
   flex-flow: row wrap;
   justify-content: space-between;
   column-gap: 5.6em;
+}
+
+/*Meda queries */
+figure {
+  position: relative;
+}
+figcaption {
+  position: relative;
+}
+
+@media screen and (min-width: 25.625em) {
+  .nav-bar ul {
+    display: flex;
+    gap: 0.6em;
+  }
+  .nav-bar ul > li {
+    flex: 1 0 auto;
+  }
+
 }
