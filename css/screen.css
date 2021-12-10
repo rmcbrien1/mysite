@@ -55,11 +55,7 @@ img {
   width: 50%;
 }
 
-.nav-bar {
-  background-color: black;
-  color: red;
-  height: 7.5em;
-}
+
 
 .container {
   max-width: 110em;
@@ -72,13 +68,32 @@ img {
   text-align: center;
   background-color: white;
   color: red;
-  margin: auto;
-  padding: auto;
+  margin: 0.05em;
+  padding: 0.5em;
 
 }
 
+.nav-bar {
+  font-family: Menlo, serif;
+  background-color: black;
+  color: red;
+  height: 7.5em;
+}
+.nav-bar a {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  border-width: 0.05555555556em;
+  color: red;
+  display: block;
+  line-height: 1;
+  padding: 1.3333333em;
+  text-decoration: none;
+}
 
-
+.nav-bar a:hover {
+  background-color: white;
+}
 
 h1 {
   font-size: 2.4em;
@@ -139,12 +154,13 @@ figcaption {
   }
   .nav-bar ul > li {
     flex: 1 0 auto;
+    text-align: center;
   }
 
 }
 @media screen and (min-width: 25.625em) {
   #header {
     display: grid;
-    gap: .8em;
+    gap: 0.8em;
   }
 }
